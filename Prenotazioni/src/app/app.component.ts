@@ -14,7 +14,7 @@ export class AppComponent {
   personaSelezionata:Persona;
 
    constructor(fb: FormBuilder) {
-    this.myForm = fb.group({'nome': ['Nome', Validators.required], 'cognome': ['Cognome', Validators.required], 'indirizzo': ['Indirizzo', Validators.required], 'email': ['Email', Validators.required], 'telefono': ['3333333333', Validators.required], 'data': ['gg/mm/2019', Validators.required], 'ora': ['Ora', Validators.required]
+    this.myForm = fb.group({'nome': ['', Validators.required], 'cognome': ['', Validators.required], 'indirizzo': ['', Validators.required], 'email': ['', Validators.required], 'telefono': ['', Validators.required], 'data': ['', Validators.required], 'ora': ['', Validators.required]
     });
   }
 

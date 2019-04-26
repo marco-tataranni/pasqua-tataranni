@@ -3,9 +3,11 @@ import { NgModule } from '@angular/core';
 import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { ViewPersonaComponent } from './view-persona/view-persona.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ViewPersonaComponent
   ],
   imports: [
     BrowserModule,FormsModule,ReactiveFormsModule, NgbModule
